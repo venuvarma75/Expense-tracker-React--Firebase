@@ -1,0 +1,45 @@
+.navbar-link-button {
+  color: white;
+  background-color: #0d6efd; /* Bootstrap primary color */
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  margin-left: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-link-button:hover {
+  background-color: #0b5ed7;
+  color: #fff;
+  text-decoration: none;
+} 
+
+
+
+/* Common style for nav links */
+#navbar-link-button,
+.navbar-link-button {
+  color: #ffffff;
+  padding: 8px 16px;
+  margin: 0 5px;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#navbar-link-button:hover,
+.navbar-link-button:hover {
+  background-color: #0d6efd; /* Bootstrap primary color */
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Active link styling if needed (optional) */
+#navbar-link-button.active,
+.navbar-link-button.active {
+  background-color: #198754; /* Bootstrap success color */
+  color: white;
+}
